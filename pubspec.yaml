@@ -8,10 +8,11 @@ environment:
   flutter: ">=1.17.0"
 
 dependencies:
+  flat_buffers: ^2.0.5
   flutter:
     sdk: flutter
   objectbox: ^1.5.0
-  objectbox_flutter_libs: any
+  objectbox_flutter_libs: ^1.5.0
   resource_repository_storage: ^0.0.2+1
   rxdart: ^0.27.4
   synchronized: ^3.0.0+2
