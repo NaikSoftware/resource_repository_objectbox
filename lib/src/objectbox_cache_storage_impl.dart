@@ -162,6 +162,8 @@ class _ObjectBoxCacheStorage<K, V> implements ObjectBoxCacheStorage<K, V> {
   String toString() => 'ObjectBoxCacheStorage($_boxKey)';
 }
 
+Future<int> removeAllData() => openStore().then((s) => s.box<CacheBoxEntry>().removeAll());
+
 @Entity(uid: 1)
 class CacheBoxEntry {
   @Id()

@@ -1,12 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:resource_repository_objectbox/resource_repository_objectbox.dart';
-
 void main() {
-  test('adds one to input values', () {
-    final calculator = Calculator();
-    expect(calculator.addOne(2), 3);
-    expect(calculator.addOne(-7), -6);
-    expect(calculator.addOne(0), 1);
-  });
+  test('first test will be here', () { });
 }

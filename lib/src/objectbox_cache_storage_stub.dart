@@ -14,3 +14,5 @@ ObjectBoxCacheStorage<K, V> createObjectBoxCacheStorage<K, V>(
 }) {
   throw UnimplementedError('ObjectBox can\'t be used the on target platform');
 }
+
+Future<int> removeAllData() => throw UnimplementedError('ObjectBox can\'t be used the on target platform');
